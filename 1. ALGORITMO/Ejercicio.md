@@ -1,13 +1,31 @@
 ### REALIZA UN ALGORITMO SOBRE ALGUNA ACTIVIDAD EN TU VIDA COTIDIANA.
 
-    TU RESPUETA AQUI
-
+    Preparar café 
+        -taza 
+        -azúcar 
+        -café 
+        -leche 
+        -cuchara 
+        1-inicio 
+        2-coloca una taza 
+        3-agarrar con la cuchara azúcar al gusto 
+        4-agarrar con la cuchara café al gusto 
+        5-verter leche en la taza 
+        6-mezclar contenido con la cuchara 
+        7-fin
 
 
 ### DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
 
-    TU RESPUESTA AQUI
-
+    Calcular edad 
+        
+       1-inicio 
+       2-declarar año de nacimiento
+       3-declarar año en curso
+       4-declarar edad
+       5-restar año de nacimiento al año en curso 
+       6-mostrar resultado = edad 
+       7-fin
 
 
 
