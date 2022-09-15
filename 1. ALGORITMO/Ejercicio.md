@@ -26,7 +26,20 @@
        5-restar año de nacimiento al año en curso 
        6-mostrar resultado = edad 
        7-fin
-
+       
+       1-inicio
+       2-declarar   año_actual(int)
+                    año_nacimiento(int)
+                    edad(int)
+                    nombre(string)
+       3-asignar año_actual = 2022
+       4-mostrar "Ingresa tu año de nacimiento"
+       5-asignar año_nacimiento
+       6-edad = año_actual - año_nacimiento
+       7-mostrar "Cuál es tu nombre?"
+       8-asignar nombre
+       9-mostrar "Hola " + nombre + ", tu edad es " + edad + " años."
+       10-fin
 
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
