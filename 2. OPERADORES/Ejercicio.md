@@ -33,7 +33,9 @@ X = ((8-6)^2*3)^3.
 
 x = ((8+5) *4) * (10-6)/4) 
 
-      TU RESPUESTA AQUI
+      ((13)*4)*(4/4)
+      52*1
+      52
 
 ## OPERADORES RELACIONALES
 Reto. Una empresa de logística ofrece a sus trabajadores un bono de
@@ -58,12 +60,14 @@ mayor que “F”. ¿Cuál es el menor de todos?
 
 3^2 – (10/(8-4))+9 > 100 
 
-      TU RESPUESTA AQUI
+     6-(10/4)+9>100
+     6-2.5+9 > 100
+     12.5 > 100
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha (FALSO O VERDADERO).
-1) (45<120 OR 12<120) =
-2) (6! =6) && (12>22)) =
-3) ¬ (128<145 && 12>9) =
-4) “Daniela”< >”DANIELA” =
-5) 10*20< >210 =
+1) (45<120 OR 12<120) = true
+2) (6! =6) && (12>22)) = false
+3) ¬ (128<145 && 12>9) = 
+4) “Daniela”< >”DANIELA” = 
+5) 10*20< >210 = 200 
