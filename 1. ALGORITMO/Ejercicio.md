@@ -40,7 +40,24 @@
        8-asignar nombre
        9-mostrar "Hola " + nombre + ", tu edad es " + edad + " años."
        10-fin
-
+       
+       /////////////////////////////////
+       
+                       1-inicio
+                       2-declarar:
+          Entrada       añoNac(int)
+          de datos      añoAct(int)
+                        edad(int)
+                        nombre(string)
+                       3-mostrar "dime tu año de nacimiento"
+                       4-asignar a año_Nac
+                       5-mostrar "dime año actual"
+                       6-asignar a añoAct
+                       7-edad = añoAct - añoNac
+                       8-mostrar "tienes", edad, "años"
+                       9-fin
+                       
+                       
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
