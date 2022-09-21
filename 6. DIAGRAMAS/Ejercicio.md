@@ -11,6 +11,7 @@
         6-Mostrar "Resultado es: ", resul
         7-fin 
      ![image](https://user-images.githubusercontent.com/113545552/191579288-73cbe459-4fc4-4977-b10f-bbb56f194d67.png)
+     ![image](https://user-images.githubusercontent.com/113545552/191580799-6860fa99-7dfd-4e8a-94cb-d36c79b29463.png)
 
     
 
