@@ -28,11 +28,15 @@ tienes?
 Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro calificaciones, una por periodo, de cada materia.
 
       1-inicio
-      2-declarar cali(float)
-      3-declarar numCali(int)
-      4-sumar las calificaciones y dividirlas entr el numCali
-      5-asignar valor a cali
-      6-mostrar cali
+      2-declarar cali1(float)
+      3-declarar cali2(float)
+      4-declarar cali3(float)
+      5-declarar cali4(float)
+      6-declarar numCali(int)
+      7-declarar prom(float)
+      4-sumar cali1, cali2, cali3, cali3 y cali4 y dividirlas entre numCali
+      5-asignar valor a prom
+      6-mostrar prom
       7-fin
       
       
