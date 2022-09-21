@@ -26,6 +26,8 @@
         5-yardas = metros * 1.09361
         6-Mostrar metros," son ", yardas
         7-fin
+![image](https://user-images.githubusercontent.com/113545552/191582148-56155679-342e-4126-be54-f052955cb832.png)
+![image](https://user-images.githubusercontent.com/113545552/191582201-295a8531-5a7e-462c-9dcc-600dddecfa73.png)
 
 
 3. Realizar el algoritmo y diagrama de flujo de un programa que calcule el área de un triángulo.
@@ -42,9 +44,10 @@
        7-area = (base*alt)/2
        8-Mostrar "El área del triángulo es ", area
        9-fin
-       
-       
-       
+         
+ ![image](https://user-images.githubusercontent.com/113545552/191584275-2ecfbd15-6ea9-4d38-b1f3-15cf0ce5105d.png)
+ ![image](https://user-images.githubusercontent.com/113545552/191584314-626a0807-911e-4042-9d26-770ccbff525f.png)
+    
        
        
        
