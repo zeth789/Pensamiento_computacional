@@ -28,15 +28,24 @@ tienes?
 Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro calificaciones, una por periodo, de cada materia.
 
       1-inicio
-      2-declarar cali1(float)
-      3-declarar cali2(float)
-      4-declarar cali3(float)
-      5-declarar cali4(float)
-      6-declarar numCali(int)
-      7-declarar prom(float)
-      4-sumar cali1, cali2, cali3, cali3 y cali4 y dividirlas entre numCali
-      5-asignar valor a prom
-      6-mostrar prom
+      3-declarar nombre(string)
+      4-declarar cali1(float)
+      5-declarar cali2(float)
+      6-declarar cali3(float)
+      7-declarar cali4(float)
+      8-declarar prom(float)
+      9-mostrar "Nombre del alumno:"
+      10-Asignar a nombre
+      11-mostrar "Digite calificación 1"
+      12-asignar a cali1
+      13-mostrar "Digite calificación 2"
+      14-asignar a cali2
+      15-mostrar "Digite calificación 3"
+      16-asignar a cali3
+      17-mostrar "Digite calificación 4"
+      18-asignar a cali4
+      19-asignar a prom = (cali1 + cali2 + cali3 + cali3 + cali4) / 4
+      20-mostrar nombre, " tu promedio es ", prom
       7-fin
       
       
@@ -45,7 +54,7 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
 Realiza un algoritmo para un programa que solicite al usuario su nombre y le salude usando ese nombre
 
       1-inicio
-      2-dclarar nombre
+      2-declarar nombre
       3-mostrar "Escribe tu nombre"
       4-asignar a nombre
       5-mostrar "Hola, ",nombre
@@ -63,8 +72,7 @@ Realiza un algoritmo para  un programa que solicite al usuario ingresar la canti
       6-asignar a kil
       7-mostrar "ingrese litros de combustible consumido"
       8-asignar a gas
-      9-dividir kil entre gas
-      10-asignar a gasto
+      9-gasto = kil / gas
       11-mostrar "Se consumieron ",gasto," litros de gasolina"
       12-fin
 
