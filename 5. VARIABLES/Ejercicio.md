@@ -16,18 +16,24 @@ hogar?
 
 ¿Qué tipo de dato debe tener una variable para registrar si está lloviendo o no?
 
-      TU RESPUESTA AQUI
+      boolean
 
 ¿Qué tipo de dato debe tener una variable para representar la cantidad de dinero que
 tienes?
 
-      TU RESPUESTA AQUI
+      float
       
 ## EJERCICIO 2
 
 Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro calificaciones, una por periodo, de cada materia.
 
-      TU ALGORITMO AQUI
+      1-inicio
+      2-declarar cali
+      3-declarar numCali
+      4-sumar las calificaciones y dividirlas entr el numCali
+      5-asignar valor a cali
+      6-mostrar cali
+      7-fin
       
       
 ## EJERCICIO 3
