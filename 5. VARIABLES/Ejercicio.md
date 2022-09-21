@@ -47,7 +47,8 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
       19-asignar a prom = (cali1 + cali2 + cali3 + cali3 + cali4) / 4
       20-mostrar nombre, " tu promedio es ", prom
       7-fin
-      
+  ![image](https://user-images.githubusercontent.com/113545552/191579996-1c275bdc-1a4c-4d35-9762-260c0eb2ae68.png)
+
       
 ## EJERCICIO 3
 
