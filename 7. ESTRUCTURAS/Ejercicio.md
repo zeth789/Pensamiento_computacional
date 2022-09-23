@@ -70,16 +70,16 @@
        4-Si num(num/2)==2 ? Escribir num, " es par": Escribir num, "es impar"
        5-fin
        
-       Algoritmo sin_titulo
-	num=0
-	Escribir "Digite un número"
-	Leer num
-	Si num/(num/2)==2
-		Escribir num, " es par."
-		Sino
-			Escribir num, " es impar."
-		FinSi
-FinAlgoritmo
+		       Algoritmo sin_titulo
+			num=0
+			Escribir "Digite un número"
+			Leer num
+			Si num/(num/2)==2
+				Escribir num, " es par."
+				Sino
+					Escribir num, " es impar."
+				FinSi
+		FinAlgoritmo
 
 
        
