@@ -62,5 +62,27 @@
 
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
-        TU ALGORITMO Y DIAGRAMA AQUI
-[promedio4cal.zip](https://github.com/zeth789/Pensamiento_computacional/files/9628620/promedio4cal.zip)
+       1-inicio
+       2-Declarar
+          num(int)
+       2-Mostrar "Digite un número"
+       3-Asignar num(int)
+       4-Si num(num/2)==2 ? Escribir num, " es par": Escribir num, "es impar"
+       5-fin
+       
+       Algoritmo sin_titulo
+	num=0
+	Escribir "Digite un número"
+	Leer num
+	Si num/(num/2)==2
+		Escribir num, " es par."
+		Sino
+			Escribir num, " es impar."
+		FinSi
+FinAlgoritmo
+
+
+       
+       
+       
+
