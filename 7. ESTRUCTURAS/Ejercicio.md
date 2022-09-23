@@ -82,7 +82,8 @@
 		FinAlgoritmo
 
 
-       
+ ![image](https://user-images.githubusercontent.com/113545552/192011011-a148c9e0-dbef-46e2-854b-f5fd5ce9cce1.png)
+   
        
        
 
