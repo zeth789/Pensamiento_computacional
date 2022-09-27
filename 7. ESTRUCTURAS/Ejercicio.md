@@ -85,5 +85,40 @@
  ![image](https://user-images.githubusercontent.com/113545552/192011011-a148c9e0-dbef-46e2-854b-f5fd5ce9cce1.png)
    
        
-       
+Ejercicio dias semana switch
+
+	1-inicio
+	2-declarar dia (int)
+	3-Mostrar "Ingrese número de día de la semana"
+	4-Asignar dia
+	5-Si dia 1 Escribir "Es domingo"
+		 2 Escribir "Es Lunes"
+		 3 Escribir "Es Martes"
+		 4 Escribir "Es Miércoles"
+		 5 Escribir "Es Jueves"
+		 6 Escribir "Es Viernes"
+		 7 Escribir "Es Sábado"
+		 Si no Escribir "Dato erróneo"
+	6-fin
+![image](https://user-images.githubusercontent.com/113545552/192597717-645ae236-3b4d-4499-ab99-874c175b1f67.png)
+![image](https://user-images.githubusercontent.com/113545552/192597964-e9cbf835-04a2-427d-abcd-bf31339961de.png)
+
+
+Ejercicio vocales
+
+		1-inicio
+		2-declarar letra(char)
+		3-Escribir "Ingresa letra"
+		4-Leer letra
+		5-Si "A" o "a" Escribir "Es vocal a"
+		     "E" o "e" Escribir "Es vocal e"	
+		     "I" o "i" Escribir "Es vocal i"
+		     "O" o "o" Escribir "Es vocal o"
+		     "U" o "u" Escribir "Es vocal u"
+		     Si no Escribir "Es consonante"
+		6-fin 
+
+![image](https://user-images.githubusercontent.com/113545552/192598380-023721f3-24d2-4334-bdd1-60531a14508e.png)
+
+![image](https://user-images.githubusercontent.com/113545552/192598097-2a0ad643-2b82-4a1a-9901-1a414b38d3bc.png)
 
