@@ -122,3 +122,64 @@ Ejercicio vocales
 
 ![image](https://user-images.githubusercontent.com/113545552/192598097-2a0ad643-2b82-4a1a-9901-1a414b38d3bc.png)
 
+Calculadora Índice de masa corporal
+
+	1-Inicio
+	2-Declarar 
+		nombre(string)
+		peso(float)
+		alt(float)
+		imc(float)
+	3-Mostrar "Ingrese nombre"
+	4-Leer nombre
+	3-Mostrar "Ingrese peso en Kg"
+	4-Leer peso
+	5- Si peso>250 o peso<1 Escribir "dato inválido"
+	5-Mostrar "Ingrese altura en metros"
+	6-Leer alt
+	7-Si alt<0.30 o alt>2.5 Escribir "dato inválido" 
+	8-imc = (peso/alt)/alt
+	9-si imc=
+		<18.5 Escribir "Tu IMC es: ", imc, "Deficiente"
+		<24.9 Escribir "Tu IMC es: ", imc, "Normal"
+		<29.9 Escribir "Tu IMC es: ", imc, "Sobrepeso"
+		>29.9 Escribir "Tu IMC es: ", imc, "Obesidad"
+	10-fin
+	
+				Algoritmo sin_titulo
+			nombre<-""
+			peso<-0
+			alt<-0
+			imc<-0
+			resulimc<-0
+			Escribir "Ingrese nombre"
+			Leer nombre
+			Escribir "Ingrese peso en Kg"
+			Leer peso
+			Si peso>1 y peso<250 Entonces
+				Escribir "Ingrese altura en metros"
+				Leer alt
+				Si alt>0.30 y alt<2.5 Entonces
+					imc = (peso/alt)/alt
+					Escribir imc
+					Segun imc Hacer
+						peso<18.5:
+							Escribir "Deficiente"
+						peso<24.9:
+							Escribir "Normal"
+						peso<29.9:
+							Escribir "Sobrepeso"
+						peso>29.9:
+							Escribir "Obesidad"
+						De Otro Modo:
+							Escribir "dato inválido"
+					Fin Segun
+				SiNo
+					Escribir "Dato Inválido"
+				Fin Si
+			SiNo
+				Escribir "Dato inválido"
+			Fin Si
+
+		FinAlgoritmo
+
