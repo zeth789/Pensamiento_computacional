@@ -196,3 +196,21 @@ Calculadora Índice de masa corporal
 	FinSi
 	FinAlgoritmo
 
+EJERCICIO imprimir tablas del 1 al 10
+
+	Algoritmo sin_titulo
+					resul<-0
+					i<-1
+					tabla<-0
+					Para i<-1 Hasta 10 Con Paso 1 Hacer
+						Para tabla<-1 Hasta 10 Con Paso 1 Hacer
+							resul = tabla * i
+							Escribir tabla," x ",i," = ",resul
+						Fin Para
+					Fin Para
+				FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/113545552/192857859-31441172-545c-4085-b895-bf11062ff491.png)
+
+
+
