@@ -163,37 +163,36 @@ Calculadora Índice de masa corporal
 			imc <- (peso/alt)/alt
 			Si imc<18.5 Entonces
 				resulimc <- 1
-				SiNo
+			SiNo
 				Si imc<24.9 Entonces
 					resulimc <- 2
-					SiNo
+				SiNo
 					Si imc<29.9 Entonces
 						resulimc <- 3
-						SiNo
+					SiNo
 						Si imc>30 Entonces
 							resulimc <- 4
 						FinSi
 					FinSi
 				FinSi
 			FinSi
+			Segun resulimc  Hacer
+				1:
+					Escribir nombre,' tu IMC es ',imc,' Deficiente'
+				2:
+					Escribir nombre,' tu IMC es ',imc,' Normal'
+				3:
+					Escribir nombre,' tu IMC es ',imc,' Sobrepeso'
+				4:
+					Escribir nombre,' tu IMC es ',imc,' Obesidad'
+				De Otro Modo:
+					Escribir 'imc inválido'
+			FinSegun
 		SiNo
 			Escribir 'Altura Inválido'
 		FinSi
 	SiNo
 		Escribir 'Peso inválido'
 	FinSi
-	Segun resulimc  Hacer
-		1:
-			Escribir nombre,' tu IMC es ',imc,' Deficiente'
-		2:
-			Escribir nombre,' tu IMC es ',imc,' Normal'
-		3:
-			Escribir nombre,' tu IMC es ',imc,' Sobrepeso'
-		4:
-			Escribir nombre,' tu IMC es ',imc,' Obesidad'
-		De Otro Modo:
-			Escribir 'imc inválido'
-	FinSegun
-	
 	FinAlgoritmo
 
