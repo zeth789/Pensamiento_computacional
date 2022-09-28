@@ -147,39 +147,53 @@ Calculadora Índice de masa corporal
 	10-fin
 	
 				Algoritmo sin_titulo
-			nombre<-""
-			peso<-0
-			alt<-0
-			imc<-0
-			resulimc<-0
-			Escribir "Ingrese nombre"
-			Leer nombre
-			Escribir "Ingrese peso en Kg"
-			Leer peso
-			Si peso>1 y peso<250 Entonces
-				Escribir "Ingrese altura en metros"
-				Leer alt
-				Si alt>0.30 y alt<2.5 Entonces
-					imc = (peso/alt)/alt
-					Escribir imc
-					Segun imc Hacer
-						peso<18.5:
-							Escribir "Deficiente"
-						peso<24.9:
-							Escribir "Normal"
-						peso<29.9:
-							Escribir "Sobrepeso"
-						peso>29.9:
-							Escribir "Obesidad"
-						De Otro Modo:
-							Escribir "dato inválido"
-					Fin Segun
+	nombre <- ''
+	peso <- 0
+	alt <- 0
+	imc <- 0
+	resulimc <- 0
+	Escribir 'Ingrese nombre'
+	Leer nombre
+	Escribir 'Ingrese peso en Kg'
+	Leer peso
+	Si peso>1 Y peso<250 Entonces
+		Escribir 'Ingrese altura en metros'
+		Leer alt
+		Si alt>0.30 Y alt<2.5 Entonces
+			imc <- (peso/alt)/alt
+			Si imc<18.5 Entonces
+				resulimc <- 1
 				SiNo
-					Escribir "Dato Inválido"
-				Fin Si
-			SiNo
-				Escribir "Dato inválido"
-			Fin Si
-
-		FinAlgoritmo
+				Si imc<24.9 Entonces
+					resulimc <- 2
+					SiNo
+					Si imc<29.9 Entonces
+						resulimc <- 3
+						SiNo
+						Si imc>30 Entonces
+							resulimc <- 4
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		SiNo
+			Escribir 'Altura Inválido'
+		FinSi
+	SiNo
+		Escribir 'Peso inválido'
+	FinSi
+	Segun resulimc  Hacer
+		1:
+			Escribir nombre,' tu IMC es ',imc,' Deficiente'
+		2:
+			Escribir nombre,' tu IMC es ',imc,' Normal'
+		3:
+			Escribir nombre,' tu IMC es ',imc,' Sobrepeso'
+		4:
+			Escribir nombre,' tu IMC es ',imc,' Obesidad'
+		De Otro Modo:
+			Escribir 'imc inválido'
+	FinSegun
+	
+	FinAlgoritmo
 
