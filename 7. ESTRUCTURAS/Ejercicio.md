@@ -156,10 +156,16 @@ Calculadora Índice de masa corporal
 	Leer nombre
 	Escribir 'Ingrese peso en Kg'
 	Leer peso
-	Si peso>1 Y peso<250 Entonces
-		Escribir 'Ingrese altura en metros'
+	Mientras peso<1 o peso>250 Hacer
+		Escribir "Peso invalido, ingrese de nuevo"
+		Leer peso
+	Fin Mientras
+	Escribir "Ingrese altura en metros"
+	Leer alt
+	Mientras alt<0.30 o alt>2.5
+		Escribir "Altura invalida, ingrese de nuevo"
 		Leer alt
-		Si alt>0.30 Y alt<2.5 Entonces
+	FinMientras
 			imc <- (peso/alt)/alt
 			Si imc<18.5 Entonces
 				resulimc <- 1
@@ -188,12 +194,6 @@ Calculadora Índice de masa corporal
 				De Otro Modo:
 					Escribir 'imc inválido'
 			FinSegun
-		SiNo
-			Escribir 'Altura Inválido'
-		FinSi
-	SiNo
-		Escribir 'Peso inválido'
-	FinSi
 	FinAlgoritmo
 
 EJERCICIO imprimir tablas del 1 al 10
