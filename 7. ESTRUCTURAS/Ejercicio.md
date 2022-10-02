@@ -212,5 +212,47 @@ EJERCICIO imprimir tablas del 1 al 10
 
 ![image](https://user-images.githubusercontent.com/113545552/192857859-31441172-545c-4085-b895-bf11062ff491.png)
 
+Ejercicio moodle estructuras 1
+
+	Algoritmo ejercicio moodle estructuras1
+		num<-0
+		Leer num
+		Si num>0 o num<0 Entonces
+			Si num>0 Entonces
+				Escribir "El numero es positivo"
+			Sino 
+				Escribir "El numero es negativo"
+			FinSi
+
+		SiNo 
+			Escribir "El numero es 0"
+		Fin Si
+	FinAlgoritmo
+Ejercicio moodle estructuras 2
+
+	Algoritmo ejercicio moodle estructuras2
+		total<-0
+		num<-0
+		i<-0
+		Mientras i<>10
+			Escribir "Ingrese numero a sumar"
+			Leer num
+			total=total+num
+			i=i+1
+		Fin Mientras
+		Escribir "La suma es: ", total
+	FinAlgoritmo
+	
+Ejercicio moodle pseudocodigo
+
+	Algoritmo numerosParesHasta100
+		num<-0
+		i<-0
+		Mientras num<>100 Hacer
+			num=num+2
+			Escribir num
+		Fin Mientras
+	FinAlgoritmo
+
 
 
