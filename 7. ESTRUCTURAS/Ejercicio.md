@@ -243,7 +243,7 @@ Ejercicio moodle estructuras 2
 		Escribir "La suma es: ", total
 	FinAlgoritmo
 	
-Ejercicio moodle pseudocodigo
+Ejercicio moodle pseudocodigo1
 
 	Algoritmo numerosParesHasta100
 		num<-0
@@ -253,6 +253,19 @@ Ejercicio moodle pseudocodigo
 			Escribir num
 		Fin Mientras
 	FinAlgoritmo
+Ejercicio moodle pseudocodigo2
 
+	Algoritmo precioLapizMayoreo
+		precio<-0
+		cant<-0
+		Escribir "Ingrese cantidad de lapices"
+		Leer cant
+		Si cant>=1000 Entonces
+			precio=0.85
+		SiNo
+			precio=0.90
+		Fin Si
+		Escribir "Costo por pieza: $",precio
+	FinAlgoritmo
 
 
