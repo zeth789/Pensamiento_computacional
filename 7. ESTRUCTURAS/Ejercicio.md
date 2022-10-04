@@ -267,5 +267,26 @@ Ejercicio moodle pseudocodigo2
 		Fin Si
 		Escribir "Costo por pieza: $",precio
 	FinAlgoritmo
-
-
+	
+Proyecto promedio n alumnos
+	
+	Algoritmo promedioNalumnos2
+	valid<-""
+	promedio<-0
+	nAlumnos<-0
+	edad<-0
+	Repetir
+		Escribir "Ingrese edad de alumno"
+		Leer edad
+		Mientras edad<1 o edad>100 Hacer
+			Escribir "Dato invalido, ingrese edad entre 1 y 100"
+			Leer edad
+		Fin Mientras
+		nAlumnos = nAlumnos + 1
+		promedio = promedio + edad
+		Escribir "Desea ingresar otra edad?"
+		Leer valid
+	Hasta Que valid <> "s"
+	promedio = promedio/nAlumnos
+	Escribir "Promedio es: ", promedio
+	FinAlgoritmo
