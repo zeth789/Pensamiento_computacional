@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T21:33:40.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NsgAuj2KvxlFb4-YxwKv" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-04T21:47:18.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="b9pVSWdn1rMUeCqlmShT" version="20.4.0" type="github">
   <diagram id="ZgHeunZpDKnO5fxdDwuy" name="Página-1">
     <mxGraphModel dx="634" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,6 +113,129 @@
         </mxCell>
         <mxCell id="qv7oHzV8xujQJ4Y-lVuA-50" value="fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="290" y="530" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-11" target="ApdvPNeRJhhwxAxGX4kQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-11" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-12" target="ApdvPNeRJhhwxAxGX4kQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-12" value="valid(char)&lt;br&gt;promedio(float)&lt;br&gt;nAlumnos(int)&lt;br&gt;edad(int)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-14" target="ApdvPNeRJhhwxAxGX4kQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-14" value="&quot;iIngrese edad de alumno&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-18" target="ApdvPNeRJhhwxAxGX4kQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-18" value="edad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-20" target="ApdvPNeRJhhwxAxGX4kQ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-20" target="ApdvPNeRJhhwxAxGX4kQ-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-20" value="edad&amp;lt;1 o edad&amp;gt;100" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.498;exitY=0.851;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-22" target="ApdvPNeRJhhwxAxGX4kQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-22" value="&quot;Dato invalido, ingrese edad entre 1 y 100&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="450" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-24" target="ApdvPNeRJhhwxAxGX4kQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="560" />
+              <mxPoint x="690" y="360" />
+              <mxPoint x="910" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-24" value="edad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-26" target="ApdvPNeRJhhwxAxGX4kQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-26" value="nAlumnos = nAlumnos+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-28" target="ApdvPNeRJhhwxAxGX4kQ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-28" value="promedio = promedio + edad" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-30" target="ApdvPNeRJhhwxAxGX4kQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-30" value="&quot;Desea ingresar otra edad? s/n&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="620" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-32" target="ApdvPNeRJhhwxAxGX4kQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-32" value="valid" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-34" target="ApdvPNeRJhhwxAxGX4kQ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="849.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-34" target="ApdvPNeRJhhwxAxGX4kQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="800" />
+              <mxPoint x="1130" y="200" />
+              <mxPoint x="910" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-34" value="valid!= s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="919.5" y="900" as="sourcePoint" />
+            <mxPoint x="919.5" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-36" value="promedio = promedio / nAlumnos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.498;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ApdvPNeRJhhwxAxGX4kQ-38" target="ApdvPNeRJhhwxAxGX4kQ-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-38" value="&quot;Promedio es: &quot;, promedio" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApdvPNeRJhhwxAxGX4kQ-42" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1010" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
