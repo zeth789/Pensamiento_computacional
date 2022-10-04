@@ -290,3 +290,20 @@ Proyecto promedio n alumnos
 	promedio = promedio/nAlumnos
 	Escribir "Promedio es: ", promedio
 	FinAlgoritmo
+	
+Algoritmo aprobado_reprobado
+	
+	calif<-0
+	Escribir "Ingrese calificación"
+	Leer calif
+	Mientras calif<1 o calif>7
+		Escribir "Calificacion invalida, ingrese de nuevo"
+		Leer calif
+	FinMientras
+		Si calif>=4
+			Escribir "Aprobado"
+		SiNo
+			Escribir "Reprobado"
+		FinSi
+	FinAlgoritmo
+	
