@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T22:02:18.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.0" etag="Id2639UFGXEK40X1ST-5" type="github"><diagram id="tE5JiyzsEHfk3PtfzcRo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T00:44:52.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rhBEbcxODZN6c221VMba" version="20.4.0" type="github">
+  <diagram id="tE5JiyzsEHfk3PtfzcRo" name="Página-1">
+    <mxGraphModel dx="611" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qgj32BDrpSudnzay6Gay-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-1" target="Qgj32BDrpSudnzay6Gay-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-2" target="Qgj32BDrpSudnzay6Gay-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-2" value="edad(int)&lt;br&gt;promedio(float)&lt;br&gt;nAlum(int)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.503;exitY=0.864;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-6" target="Qgj32BDrpSudnzay6Gay-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-6" value="&quot;Ingrese edad de alumno&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-10" target="Qgj32BDrpSudnzay6Gay-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-10" value="promedio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-15" target="Qgj32BDrpSudnzay6Gay-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-15" value="&quot;Desea ingresar otro valor?&quot; s/n" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-17" target="Qgj32BDrpSudnzay6Gay-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-17" value="valid" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-19" target="Qgj32BDrpSudnzay6Gay-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-19" target="Qgj32BDrpSudnzay6Gay-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-19" value="valid==s o S" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-25" target="Qgj32BDrpSudnzay6Gay-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-25" value="Edad" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-33" target="Qgj32BDrpSudnzay6Gay-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="900" />
+              <mxPoint x="70" y="900" />
+              <mxPoint x="70" y="280" />
+              <mxPoint x="360" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-28" target="Qgj32BDrpSudnzay6Gay-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-28" value="promedio = promedio +edad" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgj32BDrpSudnzay6Gay-31" target="Qgj32BDrpSudnzay6Gay-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-31" value="promedio = promedio / nAlumnos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-33" value="nAlumnos = nAlumnos + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgj32BDrpSudnzay6Gay-35" value="&quot;El promedio es: &quot;,promedio" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
